@@ -12,6 +12,13 @@ Rotation never changes the cyclic order of nodes, only where the list "starts" â
 
 **Complexity:** O(n) time, O(1) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom â€” each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
